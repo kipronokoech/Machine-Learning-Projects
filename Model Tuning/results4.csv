@@ -1,0 +1,19 @@
+model_name,train_acc,test_acc,train_recall,test_recall,train_precision,test_precision,train_f1,test_f1,execution_time
+Decision Tree Default,1.0,0.9462,1.0,0.9683,1.0,0.9677,1.0,0.968,
+Decision Tree Tuned GridSearchCV,0.9776,0.9136,0.9882,0.9489,0.9852,0.9484,0.9867,0.9486,7.9227
+Decision Tree Tuned RandomSearchCV,0.9096,0.9033,0.9344,0.9266,0.9571,0.9569,0.9456,0.9415,0.2895
+Random Forest Default,1.0,0.959,1.0,0.9853,1.0,0.9666,1.0,0.9759,
+Random Forest Tuned GridSearchCV,0.9352,0.9294,0.9806,0.9771,0.9444,0.9412,0.9621,0.9588,1284.9079
+Random Forest Tuned RandomSearchCV,0.9554,0.9358,0.9847,0.9724,0.963,0.9523,0.9738,0.9622,6.3127
+Bagging Classifier Default,0.9974,0.96,0.9982,0.9759,0.9986,0.9765,0.9984,0.9762,
+Bagging Classifier Tuned GridSearchCV,1.0,0.9551,1.0,0.9812,1.0,0.9659,1.0,0.9735,37.4028
+Bagging Classifier Tuned RandomSearchCV,0.9974,0.9531,0.9998,0.9836,0.9971,0.9615,0.9984,0.9724,4.3131
+AdaBoost Classifier Default,0.9608,0.961,0.9824,0.9847,0.9713,0.9694,0.9768,0.977,
+AdaBoost Classifier Tuned GridSearchCV,0.9463,0.9467,0.9802,0.9753,0.957,0.9618,0.9685,0.9685,280.1806
+AdaBoost Classifier Tuned RandomSearchCV,0.9445,0.9457,0.9767,0.9748,0.9581,0.9612,0.9673,0.9679,8.2567
+Gradient Boost Classifier,0.9751,0.9684,0.9924,0.9894,0.9784,0.9734,0.9853,0.9814,
+Gradient Boost Classifier Tuned GridSearchCV,1.0,0.962,1.0,0.9841,1.0,0.971,1.0,0.9775,70.4756
+Gradient Boost Classifier Tuned RandomSearchCV,0.9768,0.9546,0.9924,0.9783,0.9803,0.968,0.9863,0.9731,19.4499
+XGBoost Model Default,1.0,0.9733,1.0,0.9918,1.0,0.9769,1.0,0.9843,
+XGBoost Classifier Tuned GridSearchCV,0.9944,0.9605,0.998,0.9812,0.9953,0.9721,0.9967,0.9766,2588.0827
+XGBoost Classifier Tuned RandomSearchCV,0.9356,0.925,0.9988,0.9959,0.9298,0.9212,0.9631,0.9571,0.7757
